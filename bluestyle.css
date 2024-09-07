@@ -6,3 +6,25 @@ body {
     color: navy;
     margin-left: 20px;
     }
+
+    .frm{
+        background-color: darkslategray;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 30px;
+        width: 400px;
+        color: aliceblue;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+    .btn{
+        background-color: rgb(89, 159, 159);
+        border-radius: 5px;
+        color: rgb(236, 243, 240);
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .btn:hover{
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    }

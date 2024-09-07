@@ -6,7 +6,27 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>This is my first file in my second git repo</p>
+    <form class="frm">
+      <label for="fname">First name: </label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name: </label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <button type="button" onclick="myFunction()" class="btn">Login</button>
+    </form>
+
+    <script>
+      function myFunction() {
+        var f = document.getElementById("fname").value;
+        var l = document.getElementById("lname").value;
+        if (f == "" || l == "") {
+          alert("Fill the fields correctly!");
+        } else {
+          alert(
+            "You have filled the details correctly! Directing to next page......."
+          );
+          window.location.assign("next.html");
+        }
+      }
+    </script>
   </body>
 </html>
